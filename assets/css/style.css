@@ -7,8 +7,16 @@
     box-sizing: border-box;
     font-family:Roboto;
   }
-
-nav{
+#back-image {
+  background-image: url("images/banner.png");
+  /* padding:20px 100px; */
+  background-size: cover;
+  z-index: 3;
+}
+/* body{
+  background: red;
+} */
+  .nav{
   background: lightblue;
   height:80px;
   width: 100%;
