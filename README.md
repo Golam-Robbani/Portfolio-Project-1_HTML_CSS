@@ -1,3 +1,8 @@
+# Welcome to my Portfolio Project 1
+
+The purpose of this website is to provide services to the students of Bangladesh who like to get enrolled in a univeristy in the USA, Europe, Australia, and China.
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Golam-Robbani,
