@@ -1,11 +1,187 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap'); </style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family:Roboto;
+  }
+
+nav{
+  background: lightblue;
+  height:80px;
+  width: 100%;
+  position: fixed;
+  left:50px;
+  right:100px;
+   
+}
+
+.heading-logo {
+    color: red;
+    font-size: 60px;
+    line-height:65px;
+    padding: 10px;
+    font-weight: 600px;
+    font-style: oblique;
+    border-radius: 10px;
+    background: black;
+    Margin: 2px 0px;
+    outline: 1px solid red;  
+  
+  }
+nav ul {
+    float: right;
+    margin-right: 150px;
+    margin-left:10px;
+    
+}
+nav ul li{
+  display:inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+ }
+
+nav ul li a{
+  color:blue;
+  padding:7px 14px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+    transition: 0.5s;  
+
+}
+a:hover{
+background-color: green;
+  color: white;
+}
+.main-headline{
+  font-size: 80px;
+  color:blue;
+  padding: 10px;
+  text-align: center;
+  margin-left:10px;
+  padding-top: 170px;
+}
+ .sub-headline{
+  font-size: 25px;
+   text-align: center;
+   color: green;
+   line-height: 30px;
+   font-style: oblique;
+   font-weight:bold;
+   margin-botton:0;
+  
+}
+
+.headline-text{
+   font-size: 20px;
+   text-align: left justified;
+   line-height: 30px;
+   margin:15px 10px;
+  padding-left: 20px;
+   
+}
+.services {
+  Position: flex;
+  width: 20%;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 15px;
+  Margin-top:10px;
+  vertical-align: top;  
+  
+  
+  
+}
+.grid-columns{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2px;
+    row-gap: 10px;
+}
+
+.button{
+  height:36px;
+  width: 72px;
+  background-color: pink;
+  font-size: 15px;
+  color: black;
+  fornt-weight: 500;
+  border-radius: 5px;
+  text-align: cernter;
+  padding: 0 5px;
+  transition: 0.5s;
+  
+}
+
+.button:hover{
+  background-color: red;
+ cursor: pointer;
+ color:white; 
+}
+
+
+/* <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap'); </style>
 
 *{
     margin: 0;
     padding: 0;
 }
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 
-body{
-    font-size: 2em;
-    color: blue;
 }
+.nav-links{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heading-logo {
+    color: red;
+    font-size: 60px;
+    line-height:65px;
+    padding: 10px;
+    font-weight: 600px;
+    font-style: oblique;
+    border-radius: 10px;
+    background: black;
+    Margin: 2px 0px;
+    outline: 1px solid red;  
+
+.nav-links ul li{
+    flex: 1;
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;;
+  
+} */
